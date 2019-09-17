@@ -3,7 +3,7 @@ kind: Route
 metadata:
   name: the-route
 spec:
-  host: changeme
+  host: kustomized-app.apps.east-1.sysdeseng.com
   port:
     targetPort: 8080
   to:
